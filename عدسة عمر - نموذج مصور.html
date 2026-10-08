@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>عدسة عمر | مصور زفاف وبورتريه</title>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;800&family=Reem+Kufi:wght@600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#ECEBE8;--ink:#1B2530;--mut:#5C6670;--pri:#2F4B63;--acc:#B8432F;--card:#fff;--line:#CFCDC8;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#171C22;--ink:#EDEBE6;--mut:#A3ABB3;--pri:#8FB3D1;--card:#212830;--line:#333C46}}
+:root[data-theme="dark"]{--bg:#171C22;--ink:#EDEBE6;--mut:#A3ABB3;--pri:#8FB3D1;--card:#212830;--line:#333C46}
+*{box-sizing:border-box;margin:0}html{scroll-behavior:smooth}
+body{font-family:Tajawal,Tahoma,sans-serif;background:var(--bg);color:var(--ink);line-height:1.8;font-size:17px}
+a{color:inherit;text-decoration:none}.wrap{max-width:1150px;margin:auto;padding:0 20px}section{padding:80px 0}
+h1,h2{font-family:'Reem Kufi',Tajawal,sans-serif;font-weight:600;line-height:1.3}h2{font-size:clamp(28px,4.4vw,44px);margin-bottom:12px}
+.sub{color:var(--mut);max-width:520px;margin-bottom:34px}
+.btn{display:inline-block;background:var(--acc);color:#fff;padding:13px 30px;font:inherit;font-weight:800;border:0;cursor:pointer;border-radius:4px}
+.btn.alt{background:transparent;border:2px solid currentColor;color:#fff}:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+header{position:absolute;inset-inline:0;top:0;z-index:10;color:#fff;padding-top:env(safe-area-inset-top,0px)}
+.nav{display:flex;justify-content:space-between;align-items:center;height:72px}.logo{font-family:'Reem Kufi';font-size:24px}
+nav ul{display:flex;gap:28px;list-style:none;padding:0;font-weight:500}.burger{display:none;background:none;border:0;color:#fff;font-size:28px;cursor:pointer}
+.hero{min-height:100svh;display:grid;align-items:end;color:#fff;position:relative;overflow:hidden;
+background:linear-gradient(180deg,#0006,#000a),radial-gradient(circle at 70% 30%,#E7B57A 0,transparent 40%),linear-gradient(135deg,#2F4B63,#7C5B4A 60%,#B8432F)}
+.hero:after{content:"";position:absolute;width:min(60vw,460px);aspect-ratio:1;border-radius:50%;border:1px solid #fff5;inset-inline-start:8%;top:18%;box-shadow:0 0 0 28px #ffffff0d,0 0 0 56px #ffffff08}
+.hero .wrap{position:relative;z-index:2;padding-bottom:70px;padding-top:140px}
+.hero h1{font-size:clamp(40px,8vw,92px);max-width:760px}.hero p{max-width:480px;margin:14px 0 26px;color:#eee}.cta{display:flex;gap:12px;flex-wrap:wrap}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px}.filters button{font:inherit;background:none;border:1px solid var(--line);color:var(--ink);padding:7px 20px;border-radius:99px;cursor:pointer}
+.filters button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.gal{columns:3 260px;column-gap:14px}.ph{break-inside:avoid;margin-bottom:14px;border-radius:6px;position:relative;cursor:zoom-in;display:block;width:100%;border:0;padding:0;overflow:hidden}
+.ph span{position:absolute;inset-inline:0;bottom:0;padding:30px 14px 10px;background:linear-gradient(transparent,#000a);color:#fff;font-weight:500;text-align:start;opacity:0;transition:opacity .25s}.ph:hover span,.ph:focus-visible span{opacity:1}
+.h1{aspect-ratio:3/4}.h2{aspect-ratio:1}.h3{aspect-ratio:4/5}.h4{aspect-ratio:4/3}
+.pk{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.pkg{background:var(--card);padding:30px;border:1px solid var(--line);border-radius:6px}.pkg.hot{border:2px solid var(--acc)}
+.pkg h3{font-family:'Reem Kufi';font-size:24px}.price{font-size:32px;font-weight:800;color:var(--pri);margin:6px 0 12px}.price small{font-size:14px;color:var(--mut);font-weight:400}
+.pkg ul{padding:0;list-style:none;margin-bottom:18px}.pkg li{padding:5px 0;border-bottom:1px solid var(--line)}.pkg li:before{content:"✓ ";color:var(--acc)}
+.about{display:grid;grid-template-columns:.8fr 1.2fr;gap:44px;align-items:center}.pt{aspect-ratio:4/5;border-radius:6px;background:linear-gradient(160deg,#7C5B4A,#2F4B63);display:grid;place-items:center;font-size:90px;color:#ffffffaa}
+.nums{display:flex;gap:30px;margin-top:20px;flex-wrap:wrap}.nums b{display:block;font-size:30px;color:var(--acc)}
+.rev{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}.rev div{border-inline-start:3px solid var(--acc);padding:6px 18px}
+form{display:grid;gap:14px;background:var(--card);padding:28px;border:1px solid var(--line);border-radius:6px;max-width:680px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:14px}label{display:grid;gap:6px;font-weight:500}
+input,select,textarea{font:inherit;padding:12px;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:4px;width:100%}
+.ok{display:none;background:#1c7a52;color:#fff;padding:12px;border-radius:4px}
+footer{background:#10151A;color:#aab;text-align:center;padding:36px 0 90px;font-size:15px}footer .soc{display:flex;gap:18px;justify-content:center;margin-bottom:10px;color:#fff}
+.lb{position:fixed;inset:0;background:#000d;display:none;place-items:center;z-index:50;padding:20px}.lb.on{display:grid}.lb div{width:min(92vw,560px);max-height:80vh;aspect-ratio:var(--r,4/5);border-radius:6px;position:relative}
+.lb p{position:absolute;bottom:-34px;color:#fff;inset-inline:0;text-align:center}.lb button{position:absolute;top:calc(14px + env(safe-area-inset-top,0px));inset-inline-end:18px;background:none;border:0;color:#fff;font-size:36px;cursor:pointer}
+.wa{position:fixed;bottom:calc(18px + env(safe-area-inset-bottom,0px));inset-inline-start:18px;background:#25D366;color:#fff;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;font-size:28px;z-index:30}
+@media(max-width:800px){.about{grid-template-columns:1fr}.pt{max-width:300px}.row{grid-template-columns:1fr}.burger{display:block}
+nav ul{display:none;position:absolute;top:72px;inset-inline:0;background:#171C22;flex-direction:column;gap:0;padding:8px 20px}nav ul.open{display:flex}nav li a{display:block;padding:12px 0}section{padding:56px 0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav"><a class="logo" href="#top">عدسة عمر</a>
+<nav aria-label="القائمة"><ul id="menu"><li><a href="#work">الأعمال</a></li><li><a href="#packages">الباقات</a></li><li><a href="#about">عن المصور</a></li><li><a href="#reviews">آراء العملاء</a></li><li><a href="#book">احجز</a></li></ul></nav>
+<button class="burger" aria-label="فتح القائمة" onclick="menu.classList.toggle('open')">☰</button></div></header>
+<main id="top">
+<div class="hero"><div class="wrap"><h1>نحفظ لحظاتك كما شعرت بها</h1>
+<p>تصوير زفاف وبورتريه ومناسبات بأسلوب طبيعي وإضاءة هادئة. نسلّم لك الصور خلال ١٤ يوم.</p>
+<div class="cta"><a class="btn" href="#book">احجز تاريخك</a><a class="btn alt" href="#work">شاهد الأعمال</a></div></div></div>
+
+<section id="work"><div class="wrap"><h2>أحدث الأعمال</h2><p class="sub">اختر نوع التصوير لعرض الصور المناسبة.</p>
+<div class="filters" id="fl"><button class="on" data-f="all">الكل</button><button data-f="wed">زفاف</button><button data-f="por">بورتريه</button><button data-f="evt">مناسبات</button><button data-f="prd">منتجات</button></div>
+<div class="gal" id="gal"></div></div></section>
+
+<section id="packages" style="background:var(--card)"><div class="wrap"><h2>الباقات</h2><p class="sub">أسعار واضحة، ويمكن تعديل أي باقة حسب احتياجك.</p>
+<div class="pk">
+<div class="pkg"><h3>بورتريه</h3><div class="price">2,500 <small>ج.م</small></div><ul><li>ساعة تصوير</li><li>25 صورة معدّلة</li><li>معرض خاص أونلاين</li></ul><a class="btn" href="#book">اختر الباقة</a></div>
+<div class="pkg hot"><h3>زفاف يوم واحد</h3><div class="price">12,000 <small>ج.م</small></div><ul><li>٨ ساعات تغطية</li><li>مصوران</li><li>300 صورة معدّلة</li><li>ألبوم مطبوع</li></ul><a class="btn" href="#book">اختر الباقة</a></div>
+<div class="pkg"><h3>مناسبات</h3><div class="price">5,000 <small>ج.م</small></div><ul><li>٤ ساعات تغطية</li><li>120 صورة معدّلة</li><li>تسليم خلال أسبوع</li></ul><a class="btn" href="#book">اختر الباقة</a></div>
+</div></div></section>
+
+<section id="about"><div class="wrap about"><div class="pt" role="img" aria-label="صورة المصور">📷</div>
+<div><h2>أنا عمر فتحي</h2><p class="sub" style="max-width:none">مصور من الشرقية، بدأت بكاميرا واحدة وحاليًا أصوّر أفراحًا ومناسبات في كل مصر. أؤمن أن أفضل صورة هي التي لا تشعر أنك تُصوَّر فيها، لذلك أعمل بهدوء وأترك اللحظة تحدث.</p>
+<div class="nums"><div><b>+300</b>جلسة تصوير</div><div><b>8</b>سنوات خبرة</div><div><b>14 يوم</b>موعد التسليم</div></div></div></div></section>
+
+<section id="reviews" style="background:var(--card)"><div class="wrap"><h2>كلام عملائنا</h2><br>
+<div class="rev"><div><p>“صور الفرح طلعت أحلى من توقعي، وكان مريح جدًا في التعامل.”</p><b>أميرة وكريم</b></div>
+<div><p>“جلسة البورتريه كانت عفوية، والصور شبهي فعلاً.”</p><b>دينا ح.</b></div>
+<div><p>“التزام بالمواعيد وجودة عالية. هنتعامل تاني أكيد.”</p><b>شركة ريان للأثاث</b></div></div></div></section>
+
+<section id="book"><div class="wrap"><h2>احجز جلستك</h2><p class="sub">اكتب تفاصيل مناسبتك وسنرد عليك خلال ٢٤ ساعة.</p>
+<form id="f"><div class="row"><label>الاسم<input required></label><label>الموبايل<input required type="tel" inputmode="tel" placeholder="01xxxxxxxxx"></label></div>
+<div class="row"><label>نوع التصوير<select><option>زفاف</option><option>بورتريه</option><option>مناسبات</option><option>منتجات</option></select></label><label>التاريخ<input type="date"></label></div>
+<label>تفاصيل إضافية<textarea rows="3"></textarea></label><button class="btn" type="submit">أرسل الطلب</button><div class="ok" id="ok" role="status">وصل طلبك، سنتواصل معك قريبًا.</div></form></div></section>
+</main>
+<footer><div class="wrap"><div class="soc"><a href="#">انستجرام</a><a href="#">فيسبوك</a><a href="#">تيك توك</a></div>© 2026 عدسة عمر · موقع تجريبي للعرض</div></footer>
+<a class="wa" href="https://wa.me/201000000000" aria-label="واتساب">💬</a>
+<div class="lb" id="lb" onclick="this.classList.remove('on')"><button aria-label="إغلاق">×</button><div id="lbi"><p id="lbt"></p></div></div>
+<script>
+const D=[["wed","h1","لحظة الدخول","#7C5B4A,#E7B57A"],["por","h3","جلسة ضوء النهار","#2F4B63,#9DB8CC"],["evt","h4","حفل خطوبة","#B8432F,#F0C27B"],["wed","h2","تفاصيل الفستان","#C9A992,#fff1e4"],["prd","h2","تصوير منتج","#1B2530,#6B7F91"],["por","h1","بورتريه استوديو","#5C4B6B,#C6A9D6"],["wed","h4","الكوشة","#3E6B5A,#C8E0C0"],["evt","h3","عيد ميلاد","#D98A3D,#F6D79A"],["prd","h4","عطور","#8A3B2E,#E6B49C"],["por","h2","عائلة","#2F4B63,#D5B58C"]];
+const g=document.getElementById('gal');
+D.forEach(([c,r,t,gr],i)=>{const b=document.createElement('button');b.className='ph '+r;b.dataset.c=c;b.dataset.r=r;b.dataset.t=t;b.style.background=`linear-gradient(${120+i*25}deg,${gr})`;b.innerHTML=`<span>${t}</span>`;b.onclick=()=>{lbi.style.background=b.style.background;lbi.style.setProperty('--r',{h1:'3/4',h2:'1',h3:'4/5',h4:'4/3'}[r]);lbt.textContent=t;lb.classList.add('on')};g.appendChild(b)});
+fl.onclick=e=>{const f=e.target.dataset.f;if(!f)return;[...fl.children].forEach(x=>x.classList.toggle('on',x===e.target));[...g.children].forEach(p=>p.style.display=f==='all'||p.dataset.c===f?'block':'none')};
+f.addEventListener('submit',e=>{e.preventDefault();ok.style.display='block';e.target.reset()});
+menu.addEventListener('click',e=>{if(e.target.tagName==='A')menu.classList.remove('open')});
+</script>
+</body></html>
